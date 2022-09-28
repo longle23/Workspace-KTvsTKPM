@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationTests.testCau4" project="22-spring-data-crud-demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.se.springbootcruddemo.ApplicationTests" time="0.442" displayname="ApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.se.springbootcruddemo.ApplicationTests]">
+    <testcase name="testCau4" classname="com.se.springbootcruddemo.ApplicationTests" time="0.442" displayname="testCau4()" uniqueid="[engine:junit-jupiter]/[class:com.se.springbootcruddemo.ApplicationTests]/[method:testCau4()]"/>
+  </testsuite>
+</testrun>

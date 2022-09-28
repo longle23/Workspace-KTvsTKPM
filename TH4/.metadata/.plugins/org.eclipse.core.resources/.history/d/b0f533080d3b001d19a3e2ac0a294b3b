@@ -1,0 +1,96 @@
+package entity;
+
+import java.time.LocalTime;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "chuyenbay")
+public class ChuyenBay {
+	private String MaCB;
+	private String GaDi;
+	private String GaDen;
+	private int DoDai;
+	private LocalTime GioDi;
+	private LocalTime GioDen;
+	private int ChiPhi;
+
+	public String getMaCB() {
+		return MaCB;
+	}
+
+	public void setMaCB(String maCB) {
+		MaCB = maCB;
+	}
+
+	public String getGaDi() {
+		return GaDi;
+	}
+
+	public void setGaDi(String gaDi) {
+		GaDi = gaDi;
+	}
+
+	public String getGaDen() {
+		return GaDen;
+	}
+
+	public void setGaDen(String gaDen) {
+		GaDen = gaDen;
+	}
+
+	public int getDoDai() {
+		return DoDai;
+	}
+
+	public void setDoDai(int doDai) {
+		DoDai = doDai;
+	}
+
+	public LocalTime getGioDi() {
+		return GioDi;
+	}
+
+	public void setGioDi(LocalTime gioDi) {
+		GioDi = gioDi;
+	}
+
+	public LocalTime getGioDen() {
+		return GioDen;
+	}
+
+	public void setGioDen(LocalTime gioDen) {
+		GioDen = gioDen;
+	}
+
+	public int getChiPhi() {
+		return ChiPhi;
+	}
+
+	public void setChiPhi(int chiPhi) {
+		ChiPhi = chiPhi;
+	}
+
+	public ChuyenBay() {
+		super();
+	}
+
+	public ChuyenBay(String maCB, String gaDi, String gaDen, int doDai, LocalTime gioDi, LocalTime gioDen, int chiPhi) {
+		super();
+		MaCB = maCB;
+		GaDi = gaDi;
+		GaDen = gaDen;
+		DoDai = doDai;
+		GioDi = gioDi;
+		GioDen = gioDen;
+		ChiPhi = chiPhi;
+	}
+
+	@Override
+	public String toString() {
+		return "ChuyenBay [MaCB=" + MaCB + ", GaDi=" + GaDi + ", GaDen=" + GaDen + ", DoDai=" + DoDai + ", GioDi="
+				+ GioDi + ", GioDen=" + GioDen + ", ChiPhi=" + ChiPhi + "]";
+	}
+
+}
