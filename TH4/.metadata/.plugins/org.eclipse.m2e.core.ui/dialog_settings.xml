@@ -68,6 +68,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Workspace_KTvsTKPM\TH3\spring_boot_api_jwt_ad"/>
 			<item value="D:\Workspace_KTvsTKPM\TH4\22-spring-data-crud-demo"/>
 			<item value="D:\Workspace_KTvsTKPM\TH4\QuanLyChuyenBay01"/>
 			<item value="D:\Workspace_KTvsTKPM\TH4\TH_KTTKPM_Tuan4-master"/>
