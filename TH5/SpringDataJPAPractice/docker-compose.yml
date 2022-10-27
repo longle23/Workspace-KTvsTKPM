@@ -25,3 +25,5 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    volumes:
+    - ./TH5_KTTKPM.sql:/docker-entrypoint-initdb.d/TH5_KTTKPM.sql
